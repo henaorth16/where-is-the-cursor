@@ -1,8 +1,9 @@
 const btn = document.getElementById("btn");
 const body = document.getElementById("body")
 const numOfCursor = 36;
-
-
+if(innerWidth < 600){
+   body.innerHTML = `<p>use desktop please!😊</p>`
+}
 btn.addEventListener("click",function(e){
   
    for (let i = 0; i < numOfCursor; i++) {
