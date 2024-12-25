@@ -28,6 +28,5 @@ document.addEventListener("mousemove", (e) => {
       
       image.style.top = `${ e.clientY - topset}px`
       image.style.left = `${e.clientX - leftset}px`
-      console.log(topset)
    });
 })
