@@ -1,0 +1,39 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body{
+   height: 100vh;
+   background-color: rgb(2, 84, 78);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+button{
+   color: #fff;
+   padding: 1rem 2rem;
+   font-size: 1.4rem;
+   border-radius: 20px;
+   background-color: transparent;
+   border: 2px solid rgb(4, 190, 178);
+   transition: background-color .7s ;
+}
+.hide-cur, .hide-cur *{
+   cursor: none;
+}
+button:hover{
+   background-color: rgb(2, 59, 55);
+}
+img{
+   position: absolute;
+   width: 80px;
+}
+@media screen and (max-width: 600px) {
+   body *{
+      display: none;
+   }
+}
